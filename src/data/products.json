@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Tamal de salsa verde",
+    "description": "Tamal en hoja de maiz, con pollo",
+    "code": "a1",
+    "price": 30,
+    "status": true,
+    "stock": 100,
+    "category": "Tamales",
+    "thumbnails": "No images yet"
+  },
+  {
+    "title": "Tamal de salsa roja",
+    "description": "Tamal en hoja de maiz, con puerco",
+    "code": "a2",
+    "price": 30,
+    "status": true,
+    "stock": 50,
+    "category": "Tamales",
+    "thumbnails": "No images yet"
+  },
+  {
+    "title": "Atole de guayaba",
+    "description": "Delicioso atole hecho con guayabas frescas",
+    "code": "b1",
+    "price": 25,
+    "status": true,
+    "stock": 30,
+    "category": "Atole",
+    "thumbnails": "No images yet"
+  },
+  {
+    "title": "Atole de galleta",
+    "description": "Atole hecho con galletas de vainilla",
+    "code": "b2",
+    "price": "20",
+    "status": true,
+    "stock": "70",
+    "category": "Atole",
+    "thumbnails": "No images yet"
+  },
+  {
+    "title": "Tamal Arcoiris",
+    "description": "Tamal dulce con coco y chispas de colores",
+    "code": "a3",
+    "price": "25",
+    "status": true,
+    "stock": "50",
+    "category": "Tamales",
+    "thumbnails": "No images yet"
+  },
+  {
+    "title": "Atole de chocolate",
+    "description": "Atole artesanal de cacao orgánico",
+    "code": "b3",
+    "price": "25",
+    "status": true,
+    "stock": "10",
+    "category": "Atole",
+    "thumbnails": "No images yet"
+  },
+  {
+    "title": "Tamal de elote",
+    "description": "Delicioso tamal de elote con queso",
+    "code": "a4",
+    "price": 35,
+    "status": true,
+    "stock": 20,
+    "category": "Tamales",
+    "thumbnails": "No images yet"
+  },
+  {
+    "title": "Tamal de mole",
+    "description": "Tamal tradicional con mole poblano",
+    "code": "a5",
+    "price": 40,
+    "status": true,
+    "stock": 15,
+    "category": "Tamales",
+    "thumbnails": "No images yet"
+  },
+  {
+    "title": "Atole de piña",
+    "description": "Atole refrescante con sabor a piña",
+    "code": "b4",
+    "price": 22,
+    "status": true,
+    "stock": 40,
+    "category": "Atole",
+    "thumbnails": "No images yet"
+  },
+  {
+    "title": "Atole de fresa",
+    "description": "Atole cremoso con fresas frescas",
+    "code": "b5",
+    "price": 23,
+    "status": true,
+    "stock": 35,
+    "category": "Atole",
+    "thumbnails": "No images yet"
+  }
+]

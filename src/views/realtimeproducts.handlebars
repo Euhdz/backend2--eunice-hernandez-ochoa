@@ -1,0 +1,67 @@
+<h1>Real Time Products</h1>
+
+<div class="productsContainer">
+
+<div id="productsContainer"></div>
+
+</div>
+
+<div class="container">
+    <h2>Form to add Products</h2>
+    <form action="">
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="title" placeholder="Product name">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="description" placeholder="Product description">
+                </div>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="code" placeholder="Product code">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <input type="number" class="form-control" id="price" placeholder="Price">
+                </div>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <select class="form-control" id="status">
+                        <option value="true">Active</option>
+                        <option value="false">Inactive</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <input type="number" class="form-control" id="stock" placeholder="Stock">
+                </div>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="category" placeholder="Product category">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <input type="text" class="form-control" id="thumbnails" placeholder="Load images" value="No images yet">
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-primary" id="btnSend">Send</button>
+    </form>
+</div>
+<script src="https://cdn.socket.io/4.7.4/socket.io.min.js"></script> </script>
+<script src="js/main.js"></script>

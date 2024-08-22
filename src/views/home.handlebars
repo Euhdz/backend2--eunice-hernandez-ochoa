@@ -1,0 +1,23 @@
+<h1>Tamales Gallo - Productos</h1>
+
+<h2>Bienvenido, {{user}} !!</h2>
+
+<form action="/api/sessions/logout" method="POST">
+  <button type="submit"> Logout </button>
+</form>
+
+<div class="productsContainer">
+  {{#each products}}
+    <div class="card mb-3">
+      <div class="card-body">
+        <h5 class="card-title">{{this.title}}</h5>
+        <p class="card-text small">{{this.description}}</p>
+        <p class="card-text">${{this.price}}</p>
+        <form action="/api/carts/:cid/products/{{_id}}" method="post">
+          <input type="hidden" name="quantity" value="1" />
+          <button type="submit">Agregar al carrito</button>
+        </form>
+      </div>
+    </div>
+  {{/each}}
+</div>
